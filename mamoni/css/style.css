@@ -1,0 +1,256 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* top menu */
+
+.header {
+  width: 100%;
+  max-width: 1212px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  font-weight: bold;
+  padding-top: 74px;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1212px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  align-items: center;
+}
+
+.nav > li {
+  margin-left: 38px;
+  color: #202020;
+}
+
+.nav > li > a {
+  color: #202020;
+  text-decoration: none;
+}
+
+.nav_btn {
+  background-color: #5528ff;
+  border-radius: 5px;
+  padding: 4px 14px;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.nav .icona {
+  display: none;
+}
+
+/* logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo_img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  background-image: url(../src/logo.svg);
+  margin-right: 24px;
+}
+
+.logo_text {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #202020;
+}
+
+/* about us section */
+
+.title-main {
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 65px;
+  color: #202020;
+  letter-spacing: -0.5px;
+  margin-bottom: -2px;
+}
+
+.text-main {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 51px;
+  color: #4f4f4f;
+  max-width: 750px;
+  margin-bottom: 69px;
+}
+
+.page {
+  padding-top: 79px;
+  padding-bottom: 108px;
+  position: relative;
+}
+
+.page-top {
+  border-top: 1px solid #c2c2c2;
+}
+
+.page h2 {
+  position: absolute;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: white;
+  padding: 5px 15px;
+  top: -25px;
+  color: #c2c2c2;
+}
+
+.button {
+  background-color: #5528ff;
+  border-radius: 10px;
+  padding: 16px 57px;
+  color: white;
+  border: none;
+  font-size: 24px;
+}
+
+/* Our services */
+
+.services {
+  display: grid;
+  /* grid-template: 50% 50% / 50% 50%; */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-row-gap: 44px;
+}
+
+.services h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 33px;
+}
+
+.services p {
+  font-size: 14px;
+  color: #b2b2b2;
+  line-height: 1.5;
+}
+
+.services-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.services-img {
+  flex-basis: 130px;
+  text-align: center;
+}
+
+.services-text {
+  flex-basis: calc(80% - 165px);
+}
+
+/* Our clients section */
+
+.clients {
+  display: grid;
+  /* grid-template: repeat(2, 1fr) / repeat(4, 25%); */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  text-align: center;
+  grid-row-gap: 44px;
+  padding-top: 0;
+  margin: 0 auto;
+}
+
+/* Our team section */
+
+.team {
+  display: grid;
+  /* grid-template: repeat(3, 1fr) / repeat(3, 34%); */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-row-gap: 50px;
+  padding-top: 25px;
+}
+
+.team-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.team-item img {
+  margin-right: 37px;
+  margin-bottom: 0;
+  width: 100px;
+  height: 100px;
+  left: 775px;
+  top: 1825px;
+}
+
+.team-item > div {
+  flex-basis: calc(100%-100px);
+}
+
+.team-item p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b2b2b2;
+}
+
+.team-item h3 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  color: #202020;
+  margin-top: 21px;
+  margin-bottom: 11px;
+}
+
+/* footer */
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
+}
+
+.box-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.social > li {
+  margin-left: 41px;
+}
+
+.social > li > a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #b2b2b2;
+}
